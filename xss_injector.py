@@ -2,8 +2,8 @@
 from scapy.all import *
 import urllib.parse
 
-# Настройки цели (замените ID на ваш актуальный инстанс из URL Gruyere)
-GRUYERE_ID = "12345678" 
+# Настройки цели 
+GRUYERE_ID = "665078920510208521340948655182A59456348" 
 TARGET_HOST = "google-gruyere.appspot.com"
 
 def send_xss_reflected():
